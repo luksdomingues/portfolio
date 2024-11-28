@@ -83,7 +83,64 @@ html, body {
 }
 
 .container .content .aboutMePage .aboutMeResume p {
-    font-size: 17px;
+    padding-bottom: 2em;
+    font-size: 18px;
     text-align: center;
     color: #191b19;
+}
+
+/* Estilo do botão */
+.dropdown-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-btn img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* Estilo do menu dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* Mostrar o menu ao clicar */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
 }

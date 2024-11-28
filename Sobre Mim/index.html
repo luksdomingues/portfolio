@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,25 +14,47 @@
             <div class="topHomePage">
                 <div class="menuHomePage">
                     <ul>
-                        <li><a href="../Home Page/index.html">Home Page</a></li>
-                        <li><a href="Sobre Mim/index.html">About Me</a></li>
-                        <li><a href="">Resume</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="../Home Page/index.html" data-translate="homePage">Home Page</a></li>
+                        <li><a href="Sobre Mim/index.html" data-translate="aboutMe">About Me</a></li>
+                        <li><a href="" data-translate="resume">Resume</a></li>
+                        <li><a href="" data-translate="projects">Projects</a></li>
+                        <li><a href="" data-translate="contact">Contact</a></li>
                     </ul>
                 </div>
+                <div class="languageChange">
+                    <div class="dropdown">
+                        <button class="dropdown-btn">
+                            <img id="selected-flag" src="../img/united-states-of-america.png" alt="flag"> English
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item" data-lang="en">
+                                <img src="../img/united-states-of-america.png" alt="English"> English
+                            </div>
+                            <div class="dropdown-item" data-lang="pt">
+                                <img src="../img/brazil-flag.png" alt="Portuguese"> Português
+                            </div>
+                            <div class="dropdown-item" data-lang="es">
+                                <img src="../img/world.png" alt="Spanish"> Español
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
             <div class="aboutMePage">
                 <div class="aboutMeTitle">
                     <h1>About Me</h1>
                 </div>
                 <div class="aboutMeResume">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nihil sapiente, asperiores numquam quaerat tempore impedit itaque excepturi dignissimos ea error, obcaecati voluptatem? Illo eos repellat facilis placeat minima?</p>
+                    <p data-translate="resumeText1">Tenho 3 anos de experiência na área de QA, construindo uma carreira sólida e atuando em projetos complexos e desafiadores. Na Foursys, trabalhei por 1 ano e 8 meses com o cliente Bradesco, onde fui responsável por testes manuais e funcionais em áreas importantes, como pagamentos de boletos e a criação de contas MEI/EI/EIRELI no aplicativo do banco. Atuei como o único QA da equipe, assumindo a gestão e execução de todas as etapas de teste.</p>
+                    <p data-translate="resumeText2">Atualmente, trabalho na Logbank, um banco adquirente que oferece soluções para aluguel de maquininhas de cartão e gestão de vendas no varejo. Além de realizar testes manuais e funcionais, desenvolvi automações para cenários repetitivos utilizando Cypress e JavaScript, o que trouxe mais agilidade e eficiência ao processo de validação.</p>
+                    <p data-translate="resumeText3">Tenho conhecimentos em desenvolvimento front-end (HTML, CSS e JavaScript), que venho estudando há anos. Isso me ajuda a identificar a causa raiz dos bugs com mais rapidez e precisão, o que agiliza bastante as soluções. Costumo adotar uma abordagem estruturada para os testes: começo pela leitura e análise das histórias do projeto, escrevo os casos de teste e, em seguida, realizo uma validação com o time de produtos para garantir que eles atendam ao que foi solicitado.</p>
+                    <p data-translate="resumeText4">Minha experiência, aliada ao conhecimento em automação e desenvolvimento, me permite atuar de forma completa, enfrentando os desafios técnicos e estratégicos do desenvolvimento de software com segurança e eficiência.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../js/translation.js"></script>
+    <script src="../js/closeDropdown.js"></script>
 </body>
 </html>

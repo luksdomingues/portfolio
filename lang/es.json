@@ -1,0 +1,13 @@
+{
+  "title": "Sobre Mí - Lucas Domingues Santos",
+  "homePage": "Página de Inicio",
+  "aboutMe": "Sobre Mí",
+  "resume": "Currículum",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "aboutMeTitle": "Sobre Mí",
+  "resumeText1": "Tengo 3 años de experiencia en QA, construyendo una carrera sólida y trabajando en proyectos complejos y desafiantes. En Foursys, trabajé durante 1 año y 8 meses con el cliente Bradesco, donde fui responsable de pruebas manuales y funcionales en áreas importantes, como pagos de boletos y la creación de cuentas MEI/EI/EIRELI en la aplicación del banco. Actué como el único QA del equipo, gestionando y ejecutando todas las etapas de prueba.",
+  "resumeText2": "Actualmente trabajo en Logbank, un banco adquirente que ofrece soluciones para el alquiler de terminales de pago y la gestión de ventas en el comercio minorista. Además de realizar pruebas manuales y funcionales, desarrollé automatizaciones para escenarios repetitivos utilizando Cypress y JavaScript, lo que aportó más agilidad y eficiencia al proceso de validación.",
+  "resumeText3": "Tengo conocimientos en desarrollo front-end (HTML, CSS y JavaScript), que he estado estudiando durante años. Esto me ayuda a identificar la causa raíz de los errores más rápido y con más precisión, lo que acelera mucho el proceso de solución. Suelo adoptar un enfoque estructurado para las pruebas: empiezo leyendo y analizando las historias del proyecto, escribo los casos de prueba y luego realizo una validación con el equipo de productos para asegurarme de que cumplan con lo que se ha solicitado.",
+  "resumeText4": "Mi experiencia, combinada con el conocimiento en automatización y desarrollo, me permite actuar de forma completa, enfrentando los desafíos técnicos y estratégicos del desarrollo de software con seguridad y eficiencia."
+}
