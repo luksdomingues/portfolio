@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/languageStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Portfólio - Lucas Domingues Santos</title>
 </head>
 <body>
-    
     <div class="container">
         <div class="content">
             <div class="topHomePage">
                 <div class="menuHomePage">
                     <ul>
-                        <li><a href="../Home Page/index.html">Home Page</a></li>
-                        <li><a href="Sobre Mim/index.html">About Me</a></li>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="../Sobre Mim/index.html">About Me</a></li>
                         <li><a href="">Resume</a></li>
                         <li><a href="">Projects</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
                 <div class="languageChange">
-                    <div class="dropdown">
-                        <button class="dropdown-btn">
-                            <img id="selected-flag" src="../img/united-states-of-america.png" alt="flag"> English
-                        </button>
-                        <div class="dropdown-content">
-                            <div class="dropdown-item" data-lang="en">
-                                <img src="../img/united-states-of-america.png" alt="English"> English
-                            </div>
-                            <div class="dropdown-item" data-lang="pt">
-                                <img src="../img/brazil-flag.png" alt="Portuguese"> Português
-                            </div>
-                            <div class="dropdown-item" data-lang="es">
-                                <img src="../img/world.png" alt="Spanish"> Español
-                            </div>
+                    <!-- Parte visível do dropdown -->
+                    <div id="selectedLanguage" class="selectedLanguage">
+                        <img src="../img/united-states-of-america.png" alt="English Flag" id="currentFlag">
+                        <span>English</span>
+                    </div>
+                
+                    <!-- Dropdown de seleção -->
+                    <div class="languageDropdown">
+                        <div class="languageOption" data-lang="en">
+                            <img src="../img/united-states-of-america.png" alt="English Flag"> English
+                        </div>
+                        <div class="languageOption" data-lang="pt">
+                            <img src="../img/brazil-flag.png" alt="Portuguese Flag"> Português
+                        </div>
+                        <div class="languageOption" data-lang="es">
+                            <img src="../img/world.png" alt="Spanish Flag"> Español
                         </div>
                     </div>
-                </div>
+                </div>                
             </div>
             <div class="presentationHomePage">
                 <div class="textPresentation">
@@ -54,15 +56,12 @@
                     </div>
                 </div>
                 <div class="imagePresentation">
-                    <div class="image">
-                        
-                    </div>
+                    <div class="image"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="./js/translation.js"></script>
-    <script src="./js/closeDropdown.js"></script>
+    <script src="../js/translation.js"></script>
 </body>
 </html>
