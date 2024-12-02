@@ -14,33 +14,30 @@
             <div class="topHomePage">
                 <div class="menuHomePage">
                     <ul>
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="../Sobre Mim/index.html">About Me</a></li>
-                        <li><a href="">Resume</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="../Home Page/index.html" data-translate="homePage">Home Page</a></li>
+                        <li><a href="Sobre Mim/index.html" data-translate="aboutMe">About Me</a></li>
+                        <li><a href="" data-translate="resume">Resume</a></li>
+                        <li><a href="" data-translate="projects">Projects</a></li>
+                        <li><a href="" data-translate="contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="languageChange">
-                    <!-- Parte visível do dropdown -->
-                    <div id="selectedLanguage" class="selectedLanguage">
-                        <img src="../img/united-states-of-america.png" alt="English Flag" id="currentFlag">
+                <div class="dropdown">
+                    <button id="selectedLanguage" class="dropdown-btn">
+                        <img id="currentFlag" src="../img/united-states-of-america.png" alt="flag"> 
                         <span>English</span>
-                    </div>
-                
-                    <!-- Dropdown de seleção -->
-                    <div class="languageDropdown">
+                    </button>
+                    <div class="dropdown-content languageDropdown">
                         <div class="languageOption" data-lang="en">
-                            <img src="../img/united-states-of-america.png" alt="English Flag"> English
+                            <img src="../img/united-states-of-america.png" alt="English"> English
                         </div>
                         <div class="languageOption" data-lang="pt">
-                            <img src="../img/brazil-flag.png" alt="Portuguese Flag"> Português
+                            <img src="../img/brazil-flag.png" alt="Portuguese"> Português
                         </div>
                         <div class="languageOption" data-lang="es">
-                            <img src="../img/world.png" alt="Spanish Flag"> Español
+                            <img src="../img/world.png" alt="Spanish"> Español
                         </div>
                     </div>
-                </div>                
+                </div>                                
             </div>
             <div class="presentationHomePage">
                 <div class="textPresentation">
@@ -63,5 +60,6 @@
     </div>
 
     <script src="../js/translation.js"></script>
+    <script src="../js/closeDropdown.js"></script>
 </body>
 </html>
